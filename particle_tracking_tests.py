@@ -37,7 +37,7 @@ with open(path_prefix + json_name) as f:
 
 
 laser_scan = j_data['scanname'];
-path_folder = j_data[laser_scan]['Foldername'];
+path_folder = j_data[laser_scan]['Foldername blabla'];
 
 
 xiq_path = path_prefix + path_folder;
